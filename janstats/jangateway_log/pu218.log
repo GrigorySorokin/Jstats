@@ -1,0 +1,82 @@
+[12:10:12 26.06.2019] INFO: ASN-protocol revision: 50
+[12:10:12 26.06.2019] INFO: [Ch1] Waiting incoming connection on :2670 from "pu218"...
+[12:10:12 26.06.2019] INFO: [Ch3] Waiting incoming connection on :2672 from "pu218"...
+[12:10:12 26.06.2019] INFO: [Ch4] Waiting incoming connection on :2673 from "pu218"...
+[12:10:12 26.06.2019] INFO: [Ch5] Waiting incoming connection on :2674 from "pu218"...
+[12:10:18 26.06.2019] INFO: [Ch4] Connect from 192.168.135.156:37844
+[12:10:18 26.06.2019] WARNING: [Ch4] Using illegal protocol: TCP
+[12:10:18 26.06.2019] INFO: [Ch3] Connect from 192.168.135.156:38102
+[12:10:18 26.06.2019] WARNING: [Ch3] Using illegal protocol: TCP
+[12:10:18 26.06.2019] INFO: [Ch4] Logical session established
+[12:10:18 26.06.2019] INFO: [Ch3] Logical session established
+[12:10:18 26.06.2019] INFO: [Ch5] Connect from 192.168.135.156:38097
+[12:10:18 26.06.2019] WARNING: [Ch5] Using illegal protocol: TCP
+[12:10:18 26.06.2019] INFO: [Ch1] Connect from 192.168.135.156:44281
+[12:10:18 26.06.2019] WARNING: [Ch1] Using illegal protocol: TCP
+[12:10:18 26.06.2019] INFO: [Ch2] Waiting incoming connection on :2671 from "pu218"...
+[12:10:18 26.06.2019] INFO: [Ch2] Connect from 192.168.135.156:56955
+[12:10:18 26.06.2019] WARNING: [Ch2] Using illegal protocol: TCP
+[12:10:18 26.06.2019] INFO: [Ch5] Logical session established
+[12:10:18 26.06.2019] INFO: [Ch1] Logical session established
+[12:11:04 26.06.2019] INFO: [Ch3] GetStructureRequest received
+[12:11:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:11:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:11:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:11:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:11:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:11:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:13:03 26.06.2019] INFO: [Ch3] GetStructureRequest received
+[12:13:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:13:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:13:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:13:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:13:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:13:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:15:04 26.06.2019] INFO: [Ch3] GetStructureRequest received
+[12:15:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:15:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:15:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:15:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:15:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:15:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:17:04 26.06.2019] INFO: [Ch3] GetStructureRequest received
+[12:17:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:17:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:17:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:17:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:17:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:17:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:04 26.06.2019] INFO: [Ch3] GetStructureRequest received
+[12:19:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:05 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:19:32 26.06.2019] INFO: ASN-protocol revision: 50
+[12:19:32 26.06.2019] INFO: [Ch1] Waiting incoming connection on :2670 from "pu218"...
+[12:19:32 26.06.2019] INFO: [Ch3] Waiting incoming connection on :2672 from "pu218"...
+[12:19:32 26.06.2019] INFO: [Ch4] Waiting incoming connection on :2673 from "pu218"...
+[12:19:32 26.06.2019] INFO: [Ch5] Waiting incoming connection on :2674 from "pu218"...
+[12:19:42 26.06.2019] INFO: [Ch5] Connect from 192.168.135.156:38456
+[12:19:42 26.06.2019] WARNING: [Ch5] Using illegal protocol: TCP
+[12:19:42 26.06.2019] INFO: [Ch3] Connect from 192.168.135.156:38463
+[12:19:42 26.06.2019] WARNING: [Ch3] Using illegal protocol: TCP
+[12:19:42 26.06.2019] INFO: [Ch1] Connect from 192.168.135.156:44641
+[12:19:42 26.06.2019] WARNING: [Ch1] Using illegal protocol: TCP
+[12:19:42 26.06.2019] INFO: [Ch4] Connect from 192.168.135.156:38208
+[12:19:42 26.06.2019] WARNING: [Ch4] Using illegal protocol: TCP
+[12:19:42 26.06.2019] INFO: [Ch2] Waiting incoming connection on :2671 from "pu218"...
+[12:19:42 26.06.2019] INFO: [Ch2] Connect from 192.168.135.156:57316
+[12:19:42 26.06.2019] WARNING: [Ch2] Using illegal protocol: TCP
+[12:19:42 26.06.2019] INFO: [Ch1] Logical session established
+[12:19:42 26.06.2019] INFO: [Ch4] Logical session established
+[12:19:42 26.06.2019] INFO: [Ch5] Logical session established
+[12:19:42 26.06.2019] INFO: [Ch3] Logical session established
+[12:21:04 26.06.2019] INFO: [Ch3] GetStructureRequest received
+[12:21:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:21:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:21:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:21:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:21:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 
+[12:21:04 26.06.2019] WARNING: Invalid SIZE of parameter. Required length from 1 to 256. Current length = 0. Element value = "". Path = 284 1 0 0 3 1 2 0 

@@ -1,0 +1,54 @@
+[12:10:12 26.06.2019] INFO: ASN-protocol revision: 50
+[12:10:12 26.06.2019] INFO: [Ch1] Waiting incoming SSL-connection on :6000 from "pu_249"...
+[12:10:12 26.06.2019] INFO: [Ch3] Waiting incoming SSL-connection on :6002 from "pu_249"...
+[12:10:12 26.06.2019] INFO: [Ch4] Waiting incoming SSL-connection on :6003 from "pu_249"...
+[12:10:12 26.06.2019] INFO: [Ch5] Waiting incoming SSL-connection on :6004 from "pu_249"...
+[12:10:18 26.06.2019] INFO: [Ch5] Connect from 192.168.135.249:52796
+[12:10:18 26.06.2019] INFO: [Ch5] Waiting SSL session establish...
+[12:10:18 26.06.2019] INFO: [Ch5] SSL session established
+[12:10:18 26.06.2019] INFO: [Ch1] Connect from 192.168.135.249:54516
+[12:10:18 26.06.2019] INFO: [Ch1] Waiting SSL session establish...
+[12:10:18 26.06.2019] INFO: [Ch1] SSL session established
+[12:10:18 26.06.2019] INFO: [Ch2] Waiting incoming SSL-connection on :6001 from "pu_249"...
+[12:10:18 26.06.2019] INFO: [Ch2] Connect from 192.168.135.249:59102
+[12:10:18 26.06.2019] INFO: [Ch2] Waiting SSL session establish...
+[12:10:18 26.06.2019] INFO: [Ch5] Logical session established
+[12:10:18 26.06.2019] INFO: [Ch2] SSL session established
+[12:10:18 26.06.2019] INFO: [Ch1] Logical session established
+[12:19:10 26.06.2019] INFO: [Ch1] CreateTaskRequest received
+[12:19:10 26.06.2019] INFO: [Ch1] CreateTaskRequest received
+[12:19:10 26.06.2019] INFO: [Ch1] CreateTaskRequest received
+[12:19:10 26.06.2019] INFO: All parameters written to DB. TaskID: 1522551
+[12:19:10 26.06.2019] INFO: All parameters written to DB. TaskID: 1522552
+[12:19:10 26.06.2019] INFO: All parameters written to DB. TaskID: 1522553
+[12:19:32 26.06.2019] INFO: ASN-protocol revision: 50
+[12:19:32 26.06.2019] INFO: [Ch1] Waiting incoming SSL-connection on :6000 from "pu_249"...
+[12:19:32 26.06.2019] INFO: [Ch3] Waiting incoming SSL-connection on :6002 from "pu_249"...
+[12:19:32 26.06.2019] INFO: [Ch4] Waiting incoming SSL-connection on :6003 from "pu_249"...
+[12:19:32 26.06.2019] INFO: [Ch5] Waiting incoming SSL-connection on :6004 from "pu_249"...
+[12:19:42 26.06.2019] INFO: [Ch5] Connect from 192.168.135.249:54550
+[12:19:42 26.06.2019] INFO: [Ch5] Waiting SSL session establish...
+[12:19:42 26.06.2019] INFO: [Ch5] SSL session established
+[12:19:42 26.06.2019] INFO: [Ch5] Logical session established
+[12:19:42 26.06.2019] INFO: [Ch1] Connect from 192.168.135.249:56268
+[12:19:42 26.06.2019] INFO: [Ch1] Waiting SSL session establish...
+[12:19:42 26.06.2019] INFO: [Ch1] SSL session established
+[12:19:42 26.06.2019] INFO: [Ch2] Waiting incoming SSL-connection on :6001 from "pu_249"...
+[12:19:42 26.06.2019] INFO: [Ch2] Connect from 192.168.135.249:60854
+[12:19:42 26.06.2019] INFO: [Ch2] Waiting SSL session establish...
+[12:19:42 26.06.2019] INFO: [Ch2] SSL session established
+[12:19:42 26.06.2019] INFO: [Ch1] Logical session established
+[12:19:45 26.06.2019] INFO: [Ch1] DataDropRequest received. TaskId: 1522551
+[12:19:45 26.06.2019] ERROR: Cannot drop task 1522551: ERROR:  column "i_job_auto_drop" does not exist
+CONTEXT:  Error occurred on dblink connection named "DELETE_CONNECT": could not execute query.
+SQL statement "select * from dblink('DELETE_CONNECT','select dbms_job.create_job('||quote_literal('q_drop_' || split_part(split_part(p_name,',',1),'_',2))||','|| quote_literal(what)||',i_job_auto_drop=>true,i_job_desc=>''Drop result object'');') as t1(job_no numeric)"
+PL/pgSQL function jan_result.run_job_drop_object(character varying) line 15 at SQL statement
+SQL statement "select jan_result.run_job_drop_object('Q_1522551_9');"
+PL/pgSQL function task_pac.delette(integer) line 58 at EXECUTE statement
+SQL statement "SELECT task_pac.delette(p_task_id)"
+PL/pgSQL function task_pac.delete(integer) line 32 at PERFORM
+SQL statement "SELECT task_pac.delete(task_id)"
+PL/pgSQL function gw_drop_task(integer) line 1 at PERFORM
+ 42703
+[12:19:45 26.06.2019] INFO: [Ch1] DataDropRequest received. TaskId: 1522552
+[12:19:45 26.06.2019] INFO: [Ch1] DataDropRequest received. TaskId: 1522553
