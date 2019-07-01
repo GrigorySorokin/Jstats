@@ -1,10 +1,8 @@
-
-
-
+from db import init_db
 
 def main():
-    uname_func()
-    disk_func()
+    print('Initzialization db')
+    init_db.init_db()
 
 if __name__ == "__main__":
-    main()
+    main()    
